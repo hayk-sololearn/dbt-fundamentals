@@ -2,7 +2,7 @@
 
 Today I want {{ flavor }} {{ dessert }}!
 
-{%- endmacro -%}
+{%- endmacro %}
 
-{{ hoyquiero(flavor = 'chocolate') }}
+{{- hoyquiero(flavor = 'chocolate') }}
 {{ hoyquiero('mango', 'sorbet') }}
